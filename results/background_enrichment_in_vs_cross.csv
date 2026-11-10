@@ -1,0 +1,9 @@
+,,bg_share,bg_share,bg_area,bg_area,bg_enr_med,bg_enr_med
+setg,,cross,in,cross,in,cross,in
+arch,method,,,,,,
+convnext_tiny,gradcam,0.121,0.149,0.327,0.341,0.109,0.127
+convnext_tiny,intgrad,0.076,0.083,0.327,0.341,0.198,0.219
+efficientnet_b0,gradcam,0.176,0.16,0.326,0.346,0.478,0.418
+efficientnet_b0,intgrad,0.378,0.398,0.326,0.346,1.18,1.183
+resnet18,gradcam,0.096,0.086,0.328,0.344,0.199,0.159
+resnet18,intgrad,0.259,0.272,0.328,0.344,0.792,0.791

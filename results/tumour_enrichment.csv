@@ -1,0 +1,7 @@
+arch,method,n_img,tumour_share,tumour_area,enrich_ratio_of_means,enrich_median_img,frac_img_enrich_gt1,bg_share,bg_area
+convnext_tiny,gradcam,1051,0.114,0.02,5.564,5.643,0.842,0.119,0.35
+convnext_tiny,intgrad,1051,0.096,0.02,4.708,3.984,0.961,0.079,0.35
+efficientnet_b0,gradcam,1056,0.053,0.021,2.538,2.247,0.798,0.178,0.353
+efficientnet_b0,intgrad,1056,0.02,0.021,0.956,0.75,0.321,0.423,0.353
+resnet18,gradcam,1048,0.057,0.021,2.732,2.759,0.892,0.1,0.35
+resnet18,intgrad,1048,0.033,0.021,1.572,1.161,0.556,0.295,0.35
