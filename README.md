@@ -2,6 +2,18 @@
 
 Code and result files for the study of near-duplicate leakage, source shift and shortcut use in public brain-tumour MRI classifiers. The package reproduces every table and figure of the manuscript and its supplementary file.
 
+Repository: https://github.com/IsaacJournals/brain-mri-source-shift-audit
+
+## Open the notebooks in Colab
+
+| Notebook | Launch |
+|---|---|
+| 01 main pipeline | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IsaacJournals/brain-mri-source-shift-audit/blob/main/notebooks/01_P1_main_pipeline.ipynb) |
+| 02 base-paper replication | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IsaacJournals/brain-mri-source-shift-audit/blob/main/notebooks/02_P1_base_paper_replication.ipynb) |
+| 03 causal cue tests and attribution | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IsaacJournals/brain-mri-source-shift-audit/blob/main/notebooks/03_P1_causal_cue_tests_attribution.ipynb) |
+| 04 external tests, remedies, DINOv2 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IsaacJournals/brain-mri-source-shift-audit/blob/main/notebooks/04_P1_external_remedies_dinov2.ipynb) |
+| 05 tables and figures | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IsaacJournals/brain-mri-source-shift-audit/blob/main/notebooks/05_P1_tables_and_figures.ipynb) |
+
 ## Contents
 
 | Folder / file | What it contains |
@@ -18,7 +30,7 @@ Code and result files for the study of near-duplicate leakage, source shift and 
 
 ## Running the analysis in Google Colab
 
-1. Upload the whole `P1_code_release` folder to the top level of your Google Drive (`MyDrive/P1_code_release`), or set `GITHUB_URL` in the setup cell of notebooks 03 and 04 to the repository address.
+1. Open a notebook with its Colab button above. Notebooks 03 and 04 clone this repository automatically; to work from a Drive copy instead, upload the repository folder to `MyDrive/P1_code_release` and set `GITHUB_URL = ''`.
 2. In Colab, add a secret named `KAGGLE_API_TOKEN` (Kaggle → Settings → API → Create new token; key icon in the left bar; switch notebook access on). The Figshare, BDNeuro-MRI and PMRAM files are downloaded without credentials.
 3. Run the notebooks in order with **Runtime → Change runtime type → T4 GPU**, then **Runtime → Run all**, and allow Google Drive access:
 
